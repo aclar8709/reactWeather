@@ -34,6 +34,9 @@ function App() {
 
       <div className="App">
         {component}
+        <TicTacToe />
+        <ToDoList />
+        <Indecision />
       </div>
     </>
   );
