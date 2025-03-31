@@ -1,0 +1,46 @@
+.choice-list{
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+}
+.input-form{
+    width: 60%;
+    margin: 10 auto;
+    padding: 10px;
+}
+.input-choice{
+    min-height: 20px;
+}
+.list-item-choice{
+    display:flex;
+    margin: 1rem;
+    text-transform:capitalize;
+    background-color: #61dafb;
+    border-radius: 15px;
+}
+.add-choice, .magic{
+    background-color: #2f7a8f;
+
+}
+.value{
+    margin: 15px;
+    color: #252525;
+}
+
+.edit-btn, .delete-btn{
+    height: 25px;
+    margin: 0;
+}
+.edit-btn{
+    color:green;
+    border: 1px solid green;
+    background-color: rgba(0, 243, 53, 0.62);
+}
+.delete-btn{
+    color:red;
+    border: 1px solid red;
+    background-color: rgba(243, 16, 0, 0.62);
+}
+.chosen-one{
+    background-color: plum;
+}

@@ -1,0 +1,21 @@
+.board{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 1rem;
+}
+.block{
+    height: 3rem;
+    width: 3rem;
+    font-size: 2rem;
+}
+.winning-block{
+    background-color: #2f7a8f;
+}
+.startOver{
+    margin-top: 1rem;
+    background-color: #61dafb;
+}
+.startOver:focus{
+    background-color: #2f7a8f;
+}

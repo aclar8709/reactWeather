@@ -12,18 +12,72 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
+body{
   background-color: #282c34;
+}
+
+.App {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.header{
+    color: white;
+    padding: 0.5rem;
+    background-color: #2f7a8f;
+    width: 100%;
+}
+.nav-bar{
+  float: right;
+  margin-right: 2rem;
+}
+.dropdown-button{
+  min-width: 160px;
+  margin-top: 0.5rem;
+  background-color: #61dafb;
+}
+.dropdown-button:hover{
+  background-color: #282c34;
+  color: white;
+}
+.dropdown-content {
+  position: absolute;
+  right: 0;
+  margin-right: 1.5rem;
+  justify-content: center;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  visibility:hidden;
+  
+}
+.dropdown-content ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
 
+.dropdown-content a{
+  width: 100%;
+  min-height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color:#282c34;
+}
+.dropdown-visible{
+  visibility: visible;
+}
+.dropdown-content a:hover{
+  background-color: lavender;
+}
 .App-link {
   color: #61dafb;
 }
